@@ -1,0 +1,15 @@
+button {
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#log {
+  font-size: 48px;
+}
+
+#myVideo {
+  filter: grayscale(100);
+}

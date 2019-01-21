@@ -1,0 +1,35 @@
+@import url(../../common/css/base_photo.css);
+body {
+  background-size: cover;
+  background: url("../common/bg_city_2.jpg") center;
+}
+
+main {
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 10px;
+  display: grid;
+  grid-template: 'header' auto 'textarea' 1fr 'button' auto / 100%;
+}
+
+#tweetTextArea {
+  width: 100%;
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 22px;
+}
+
+#tweetButton {
+  max-width: 300px;
+  font-size: 30px;
+  justify-self: center;
+  background-color: #2673a6;
+}
+
+#tweetButton:hover {
+  background-color: #2688bc;
+}
+
+#tweetButton:active {
+  background-color: #265c8f;
+}

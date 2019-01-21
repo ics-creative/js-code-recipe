@@ -1,0 +1,15 @@
+@import url(../../common/css/base_photo.css);
+body {
+  background-size: cover;
+  background: url("../common/bg_fine.jpg") center;
+}
+
+main {
+  display: flex;
+  align-items: stretch;
+}
+
+#log {
+  flex-grow: 1;
+  height: auto;
+}

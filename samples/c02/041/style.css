@@ -1,0 +1,23 @@
+@import url(../../common/css/base_photo.css);
+body {
+  background-size: cover;
+  background: url("../common/bg_nature_3.jpg") center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 150px;
+  font-size: 100px;
+  font-weight: bold;
+  color: #222222;
+  -webkit-text-stroke: 2px white;
+  text-stroke: 2px white;
+}

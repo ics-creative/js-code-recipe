@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  border: 2px dotted #fff;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.container:first-child {
+  margin-top: 0;
+}
+
+.container div {
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 2px dotted #fff;
+  padding: 10px;
+}
+
+#myBox1,
+#myBox2 {
+  border: 4px solid #d03939 !important;
+  padding: 10px;
+}

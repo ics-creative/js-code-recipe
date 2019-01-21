@@ -1,0 +1,23 @@
+.rect {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: absolute;
+  background: white;
+  top: 100px;
+
+  transition: all 0.5s;
+}
+
+.rect.state-show {
+  opacity: 0.5;
+}
+
+.centering {
+  position: relative;
+}
+
+.ui {
+  position: absolute;
+  bottom: 100px;
+}

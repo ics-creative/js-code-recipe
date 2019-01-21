@@ -1,0 +1,268 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul {
+  list-style: none;
+}
+
+table {
+  text-align: left;
+  border-collapse: collapse;
+}
+
+table th {
+  font-weight: normal;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+button {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', 'Hiragino Sans', 'ヒラギノ角ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: #ffffff;
+  overflow: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1,
+p,
+label,
+button,
+textarea,
+ul,
+li,
+hr {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #fff;
+}
+
+p {
+  line-height: 36px;
+}
+
+input,
+textarea,
+button,
+label,
+select {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+select {
+  background-color: #fff;
+}
+
+button {
+  width: 300px;
+}
+
+label input {
+  margin-left: 20px;
+}
+
+textarea {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+code {
+  font-size: 18px;
+  font-family: monospace;
+}
+
+code.block {
+  padding: 10px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: #000;
+}
+
+body:before {
+  width: 100%;
+  height: 100%;
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url("../images/background.jpg");
+  background-size: cover;
+  z-index: 0;
+}
+
+body > * {
+  position: relative;
+  z-index: 1;
+}
+
+body.chapter-1:before {
+  filter: hue-rotate(0deg);
+}
+
+body.chapter-2:before {
+  filter: hue-rotate(12deg);
+}
+
+body.chapter-3:before {
+  filter: hue-rotate(24deg);
+}
+
+body.chapter-4:before {
+  filter: hue-rotate(36deg);
+}
+
+body.chapter-5:before {
+  filter: hue-rotate(48deg);
+}
+
+body.chapter-6:before {
+  filter: hue-rotate(60deg);
+}
+
+body.chapter-7:before {
+  filter: hue-rotate(84deg);
+}
+
+body.chapter-8:before {
+  filter: hue-rotate(96deg);
+}
+
+body.chapter-9:before {
+  filter: hue-rotate(108deg);
+}
+
+body.chapter-10:before {
+  filter: hue-rotate(120deg);
+}
+
+body.chapter-11:before {
+  filter: hue-rotate(132deg);
+}
+
+body.chapter-12:before {
+  filter: hue-rotate(144deg);
+}
+
+body.chapter-13:before {
+  filter: hue-rotate(156deg);
+}
+
+body.chapter-14:before {
+  filter: hue-rotate(120deg);
+}
+
+body.chapter-15:before {
+  filter: hue-rotate(168deg);
+}
+
+body.chapter-16:before {
+  filter: hue-rotate(180deg);
+}
+
+body.chapter-17:before {
+  filter: hue-rotate(216deg);
+}
+
+body.chapter-18:before {
+  filter: hue-rotate(204deg);
+}
+
+body.chapter-19:before {
+  filter: hue-rotate(228deg);
+}
+
+table,
+th,
+td {
+  border: 1px solid #251631;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.58);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 900px;
+  height: 480px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+main.centering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.character {
+  background-image: url(../images/character.png);
+  background-size: 200px 200px;
+  width: 200px;
+  height: 200px;
+}
+
+.box {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: #fff;
+  border: 1px solid #fff;
+}

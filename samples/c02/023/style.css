@@ -1,0 +1,16 @@
+.button {
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  width: 120px;
+}
+
+.rectangle {
+  width: 100%;
+  height: calc(100% - 50px);
+  --start: hsl(0, 100%, 50%);
+  --end: hsl(322, 100%, 50%);
+  background-image: linear-gradient(-135deg, var(--start), var(--end));
+}

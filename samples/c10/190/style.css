@@ -1,0 +1,7 @@
+.stoker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  will-change: transform;
+  font-size: 5rem;
+}

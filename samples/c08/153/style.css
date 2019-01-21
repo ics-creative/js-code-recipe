@@ -1,0 +1,26 @@
+@import url(../common/style_city.css);
+body {
+  align-items: flex-end;
+}
+
+main {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.6);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  color: #333333;
+  box-sizing: border-box;
+  padding: 0px;
+  text-align: center;
+}
+
+#weather {
+  font-size: 2rem;
+}
+
+#weather strong {
+  color: #d03939;
+}

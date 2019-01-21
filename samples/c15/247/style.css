@@ -1,0 +1,28 @@
+h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+section {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}
+
+input[type=text] {
+  border-radius: 5px;
+
+  border: 1px solid lightgray;
+  outline: none;
+  background: white;
+  font-size: 2rem;
+
+  padding: 10px;
+}
+
+#log {
+  height: 200px;
+}

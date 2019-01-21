@@ -1,0 +1,7 @@
+body {
+  background: url("bg.jpg") center;
+}
+
+#myCanvas {
+  background: rgba(255, 255, 255, 0.2);
+}

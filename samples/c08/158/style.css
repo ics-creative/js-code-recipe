@@ -1,0 +1,74 @@
+@import url(../../common/css/base_photo.css);
+body {
+  background-size: cover;
+  background: url('../common/bg_snow.jpg') center;
+}
+
+h1 {
+  -webkit-text-stroke: 1px white;
+  text-stroke: 1px white;
+  font-weight: bold;
+}
+
+main {
+  padding: 10px;
+}
+
+.section-wrapper {
+  display: flex;
+}
+
+section {
+  width: calc(100% / 3);
+  padding-left: 5px;
+  padding-right: 5px;
+  box-sizing: border-box;
+}
+
+.button {
+  width: 100%;
+  text-transform: none;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  background-color: #2673a6;
+}
+
+.button:hover {
+  background-color: #2688bc;
+}
+
+.button:active {
+  background-color: #265c8f;
+}
+
+.button + .content {
+  display: none;
+  font-size: 20px;
+  margin-top: 10px;
+  border: 1px solid white;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 2px;
+  padding: 10px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3) inset;
+  text-align: left;
+  color: white;
+}
+
+.button + .content.show {
+  display: block;
+}
+
+.button + .content h2 {
+  font-size: 22px;
+}
+
+.button + .content dt {
+  margin-bottom: 10px;
+}
+
+.button + .content dl,
+.button + .content dt,
+.button + .content dd {
+  margin: 0;
+}

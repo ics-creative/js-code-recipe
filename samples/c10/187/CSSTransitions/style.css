@@ -1,0 +1,21 @@
+.rect {
+  display: block;
+  position: absolute;
+  top: 50px;
+
+  filter: brightness(100%);
+  transition: all 0.5s;
+}
+
+.rect.state-show {
+  filter: brightness(300%);
+}
+
+.centering {
+  position: relative;
+}
+
+.ui {
+  position: absolute;
+  bottom: 50px;
+}

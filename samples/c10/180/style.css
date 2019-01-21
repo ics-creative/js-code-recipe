@@ -1,0 +1,34 @@
+button {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.target {
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  background: white;
+  top: 150px;
+  transition: all 2s;
+}
+
+.target.state-show {
+  width: 400px;
+}
+
+.centering {
+  position: relative;
+}
+
+.ui {
+  position: absolute;
+  bottom: 100px;
+}
+
+.log {
+  border: 1px solid white;
+  padding: 0 0.5em;
+}

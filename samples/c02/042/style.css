@@ -1,0 +1,19 @@
+@import url(../../common/css/base_photo.css);
+body {
+  background-size: cover;
+  background: url("../common/bg_nature_2.jpg") center;
+}
+
+.current-time {
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  color: #222222;
+  -webkit-text-stroke: 2px white;
+  text-stroke: 2px white;
+}

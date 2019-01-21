@@ -1,0 +1,8 @@
+body {
+  background: url("bg.jpg") center;
+}
+
+#log {
+  font-size: 2.0rem;
+  color: #2b85ff;
+}

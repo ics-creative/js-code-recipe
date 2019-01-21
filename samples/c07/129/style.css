@@ -1,0 +1,9 @@
+#mouseWheelToggle {
+  margin-right: 10px;
+}
+
+.scrollable-element {
+  width: 100%;
+  overflow-y: scroll;
+  text-align: center;
+}

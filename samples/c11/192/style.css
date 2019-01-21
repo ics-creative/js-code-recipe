@@ -1,0 +1,6 @@
+img.loading {
+  background-color: black;
+  background-image: url("images/loading.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,28 @@
+.rect {
+  height: 100px;
+  display: block;
+  position: absolute;
+  background: white;
+  top: 150px;
+
+  width: 100px;
+  transition: all 2s;
+}
+
+.rect.state-show {
+  width: 400px;
+}
+
+.centering {
+  position: relative;
+}
+
+.ui {
+  position: absolute;
+  bottom: 100px;
+}
+
+.log {
+  border: 1px solid white;
+  padding: 0 0.5em;
+}

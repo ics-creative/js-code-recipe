@@ -1,0 +1,212 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul {
+  list-style: none;
+}
+
+table {
+  text-align: left;
+  border-collapse: collapse;
+}
+
+table th {
+  font-weight: normal;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+button {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', 'Hiragino Sans', 'ヒラギノ角ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: #ffffff;
+  overflow: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1,
+p,
+label,
+button,
+textarea,
+ul,
+li,
+hr {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #fff;
+}
+
+p {
+  line-height: 36px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+}
+
+input,
+textarea,
+button,
+label,
+select {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+select {
+  background-color: #fff;
+}
+
+button {
+  width: 300px;
+}
+
+label input {
+  margin-left: 20px;
+}
+
+textarea {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+code {
+  font-size: 18px;
+  font-family: monospace;
+}
+
+code.block {
+  padding: 10px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+body {
+  color: #333333;
+  background-color: #487ef3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: #fff;
+  width: 100%;
+  max-width: 640px;
+  height: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.likeComponent {
+  position: absolute;
+  bottom: 20px;
+  left: calc(50% - 90px);
+}
+
+.balloon {
+  position: absolute;
+  left: 0;
+  top: -55px;
+  display: inline-block;
+  padding: 5px;
+  width: 180px;
+  color: #555;
+  font-size: 22px;
+  background: #fff;
+  border: solid 2px #444444;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.balloon:before {
+  content: '';
+  position: absolute;
+  bottom: -24px;
+  left: 50%;
+  margin-left: -15px;
+  border: 12px solid transparent;
+  border-top: 12px solid #fff;
+  z-index: 2;
+}
+
+.balloon:after {
+  content: '';
+  position: absolute;
+  bottom: -29px;
+  left: 50%;
+  margin-left: -17px;
+  border: 14px solid transparent;
+  border-top: 14px solid #444444;
+  z-index: 1;
+}
+
+.balloon p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  margin-bottom: 0;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 32px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 180px;
+  background-color: #487ef3;
+}
+
+button:hover, button:active {
+  background-color: #78a0f6;
+}

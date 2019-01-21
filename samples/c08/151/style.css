@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  border: 2px dotted #fff;
+  padding: 10px;
+}
+
+.container .new-box {
+  border: 4px solid #d03939;
+}

@@ -1,0 +1,55 @@
+@import url(../../common/css/base_photo.css);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul {
+  list-style: none;
+}
+
+table {
+  text-align: left;
+  border-collapse: collapse;
+}
+
+table th {
+  font-weight: normal;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+button {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+body {
+  background-size: cover;
+  background: url("../common/bg_nature.jpg") center;
+  align-items: flex-end;
+}
+
+main {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.6);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  color: #333333;
+  box-sizing: border-box;
+  padding: 0px;
+  text-align: center;
+  flex-direction: column;
+  font-size: 2rem;
+}

@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+}
+
+.box,
+.inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.box:after,
+.inner:after {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.box {
+  background-color: #fff7bf;
+  width: 100%;
+  height: 100%;
+}
+
+.box:after {
+  content: '.box';
+}
+
+.box .inner {
+  background-color: #ffe44c;
+  width: 80%;
+  height: 80%;
+}
+
+.box .inner:after {
+  content: '.inner';
+}

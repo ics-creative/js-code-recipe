@@ -1,0 +1,11 @@
+@import url(../../common/css/base_photo.css);
+body {
+  background-size: cover;
+  background: url("../common/bg_nature.jpg") center;
+}
+
+.character {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

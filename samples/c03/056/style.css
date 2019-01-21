@@ -1,0 +1,23 @@
+main {
+  padding: 0;
+  display: grid;
+  flex-direction: column;
+  grid-template: 'search-word' auto 'result' 1fr / 100%;
+  align-items: center;
+}
+
+.search-word-wrapper {
+  grid-area: search-word;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+#search-result {
+  grid-area: result;
+  text-align: center;
+  flex-grow: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 60px;
+}

@@ -1,0 +1,18 @@
+.button-wrapper {
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.button {
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.user_list {
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+}

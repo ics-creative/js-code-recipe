@@ -1,0 +1,6 @@
+.container {
+  background: url("bg.jpg") center;
+  background-size: cover;
+
+  height: 100vh;
+}

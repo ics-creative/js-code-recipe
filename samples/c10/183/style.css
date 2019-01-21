@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 940px;
+  height: 520px;
+
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.rect {
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  background: white;
+  top: 200px;
+}

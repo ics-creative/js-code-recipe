@@ -1,0 +1,17 @@
+.rect {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: absolute;
+  background: white;
+  top: 100px;
+}
+
+.centering {
+  position: relative;
+}
+
+.ui {
+  position: absolute;
+  bottom: 100px;
+}

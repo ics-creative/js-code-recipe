@@ -1,0 +1,16 @@
+@import url(../../common/css/base_photo.css);
+body {
+  background-size: cover;
+  background: url("../common/bg_nature.jpg") center;
+}
+
+main {
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+}
+
+#log2 {
+  height: 100%;
+  max-height: 100%;
+  user-select: none;
+}

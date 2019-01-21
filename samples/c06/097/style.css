@@ -1,0 +1,32 @@
+body:before {
+  filter: hue-rotate(84deg);
+}
+
+.line-horizontal {
+  position: absolute;
+  top: 50%;
+  left: 0;
+
+  width: 100%;
+  height: 1px;
+  background: #C5E1A5;
+}
+
+.line-vertical {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 100%;
+  background: #F48FB1;
+}
+
+.value-width {
+  color: #C5E1A5;
+  font-size: 2rem;
+}
+
+.value-height {
+  color: #F48FB1;
+  font-size: 2rem;
+}

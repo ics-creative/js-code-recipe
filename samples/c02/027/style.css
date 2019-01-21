@@ -1,0 +1,20 @@
+@import url(../../common/css/base_photo.css);
+body {
+  background-size: cover;
+  background: url("../common/bg_nature_4.jpg") center;
+}
+
+.textarea {
+  width: 100%;
+  height: calc(100% - 40px);
+  font-size: 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+p {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: -1px -1px 1px #333333, 1px 1px #ffffff;
+  margin: 0;
+}

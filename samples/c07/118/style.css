@@ -1,0 +1,26 @@
+@import url(../../common/css/base_photo.css);
+body {
+  background-size: cover;
+  background: url("../common/bg_city.jpg") center;
+}
+
+button {
+  background-color: #e26e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:before {
+  content: "ボタン";
+  display: block;
+}
+
+button:hover {
+  background-color: #ed6c1d;
+}
+
+button:active {
+  background-color: #b0591e;
+}
+

@@ -1,0 +1,131 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-size: cover;
+  background: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: block;
+  width: 960px;
+  height: 540px;
+
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+}
+
+main.large {
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+}
+main.centering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #26a69a;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  height: 72px;
+  line-height: 72px;
+  padding: 0 32px;
+  text-transform: uppercase;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #27bfb3;
+}
+
+button:active {
+  background-color: #1d8e82;
+}
+
+button.blue {
+   background-color: #2673a6;
+}
+
+button.blue:hover {
+  background-color: #2688bc;
+}
+
+button.blue:active {
+  background-color: #265c8f;
+}
+
+button.orange {
+  background-color: #e26e1e;
+}
+
+button.orange:hover {
+  background-color: #ed6c1d;
+}
+
+button.orange:active {
+  background-color: #b0591e;
+}
+
+
+
+#log {
+  border: 1px solid white;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  font-size: 2rem;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3) inset;
+  font-family: monospace;
+  text-align: left;
+  color: white;
+  height: 370px;
+
+  overflow: auto;
+}
+
+#log2 {
+  border: 1px solid white;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  font-size: 2rem;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3) inset;
+  font-family: monospace;
+  text-align: left;
+  color: white;
+  overflow: auto;
+}
+
+
+.character {
+  background-image: url(../images/character.png);
+  background-size: 200px 200px;
+  width: 200px;
+  height: 200px;
+}

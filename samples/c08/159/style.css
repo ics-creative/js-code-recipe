@@ -1,0 +1,14 @@
+@import url(../../common/css/base_photo.css);
+body {
+  background-size: cover;
+  background: url("../common/bg_night.jpg") center;
+}
+
+main {
+  background: none;
+}
+
+#information {
+  margin: 0;
+  text-align: left;
+}

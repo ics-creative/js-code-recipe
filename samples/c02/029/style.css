@@ -1,0 +1,157 @@
+@charset "UTF-8";
+@import url(../../common/css/base_photo.css);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul {
+  list-style: none;
+}
+
+table {
+  text-align: left;
+  border-collapse: collapse;
+}
+
+table th {
+  font-weight: normal;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+button {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', 'Hiragino Sans', 'ヒラギノ角ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: #ffffff;
+  overflow: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1,
+p,
+label,
+button,
+textarea,
+ul,
+li,
+hr {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #fff;
+}
+
+p {
+  line-height: 36px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+}
+
+input,
+textarea,
+button,
+label,
+select {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+select {
+  background-color: #fff;
+}
+
+button {
+  width: 300px;
+}
+
+label input {
+  margin-left: 20px;
+}
+
+textarea {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+code {
+  font-size: 18px;
+  font-family: monospace;
+}
+
+code.block {
+  padding: 10px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background-size: cover;
+  background: url("../common/bg_nature_9.jpg") center;
+  color: #333333;
+}
+
+main {
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  background-color: rgba(255, 255, 255, 0.7);
+  display: grid;
+  grid-template: 'header' auto 'table' 1fr / 100%;
+}
+
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+table {
+  align-self: center;
+}
+
+table table,
+table th,
+table td {
+  border: 1px solid #333333;
+}
+
+table th,
+table td {
+  box-sizing: border-box;
+  padding: 10px;
+}

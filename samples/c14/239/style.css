@@ -1,0 +1,22 @@
+.progress {
+  position: relative;
+  width: 600px;
+  height: 20px;
+  border-radius: 10px;
+  background: gray;
+  overflow: hidden;
+  display: block;
+  margin: 20px auto;
+}
+
+.progress-bar {
+  position: absolute;
+  background: orangered;
+  content: '';
+  height: 20px;
+  display: block;
+}
+
+#log {
+  height: 350px;
+}

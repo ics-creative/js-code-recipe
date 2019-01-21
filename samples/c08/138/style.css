@@ -1,0 +1,25 @@
+@import url(../common/style_city.css);
+main {
+  background: rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.box {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: rgba(97, 144, 255, 0.86);
+  cursor: pointer;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}

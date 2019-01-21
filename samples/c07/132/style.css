@@ -1,0 +1,30 @@
+@import url(../../common/css/base_photo.css);
+body {
+  background-size: cover;
+  background: url("../common/bg_night.jpg") center;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.textarea {
+  width: 100%;
+  height: calc(100% - 40px);
+  font-size: 40px;
+}
+
+#myBox {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: #fff;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(229, 88, 103, 0.8);
+  width: 200px;
+  height: 200px;
+  font-size: 22px;
+}

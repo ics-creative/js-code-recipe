@@ -1,0 +1,15 @@
+p.log {
+  width: 600px;
+  height: 300px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: rgba(0,0,0,0.5);
+  padding: 5px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+p.log img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}

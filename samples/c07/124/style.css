@@ -1,0 +1,50 @@
+@import url(../../common/css/base_photo.css);
+body {
+  background-size: cover;
+  background: url("../common/bg_nature_3.jpg") center;
+  position: relative;
+}
+
+main {
+  position: static;
+}
+
+.paragraph {
+  font-size: 2rem;
+  font-weight: bold;
+  -webkit-text-stroke: 1px white;
+  text-stroke: 1px white;
+}
+
+#balloon {
+  font-size: 1.2rem;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  padding: 5px;
+  min-width: 60px;
+  color: #171717;
+  font-size: 12px;
+  background: white;
+  border-radius: 5px;
+  display: none;
+  opacity: 0;
+}
+
+#balloon::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -10px;
+  border: 10px solid transparent;
+  border-top: 10px solid white;
+}
+
+#balloon.on {
+  opacity: 1;
+  display: block;
+  transition: 300ms all;
+}

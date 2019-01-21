@@ -1,0 +1,10 @@
+body {
+  height: 20000px;
+  overflow: scroll;
+  display: block;
+}
+
+.main {
+  margin-left: auto;
+  margin-right: auto;
+}

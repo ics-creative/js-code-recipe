@@ -1,0 +1,28 @@
+.wrap {
+  width: 80%;
+  margin-bottom: 40px;
+  text-align: center;
+  zoom: 2;
+}
+
+.result {
+  border: 1px solid white;
+  padding: 0.5em;
+}
+
+#numA {
+  display: inline-block;
+  width: 3em;
+}
+
+#numB {
+  display: inline-block;
+  width: 3em;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}

@@ -1,0 +1,190 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul {
+  list-style: none;
+}
+
+table {
+  text-align: left;
+  border-collapse: collapse;
+}
+
+table th {
+  font-weight: normal;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+button {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', 'Hiragino Sans', 'ヒラギノ角ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: #ffffff;
+  overflow: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1,
+p,
+label,
+button,
+textarea,
+ul,
+li,
+hr {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #fff;
+}
+
+p {
+  line-height: 36px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+}
+
+input,
+textarea,
+button,
+label,
+select {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+select {
+  background-color: #fff;
+}
+
+button {
+  width: 300px;
+}
+
+label input {
+  margin-left: 20px;
+}
+
+textarea {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+code {
+  font-size: 18px;
+  font-family: monospace;
+}
+
+code.block {
+  padding: 10px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+body {
+  color: #333333;
+  background-color: rgba(59, 191, 61, 0.76);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: #f7f7f7;
+  width: 100%;
+  max-width: 640px;
+  min-height: 400px;
+  padding: 40px;
+  box-sizing: border-box;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+#phoneNumberText {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 400px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #c1c1c1;
+}
+
+#warningMessage {
+  color: #ff5967;
+  font-weight: bold;
+  font-size: 20px;
+  height: 22px;
+}
+
+button {
+  position: absolute;
+  bottom: 20px;
+  left: calc(50% - 90px);
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 32px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 180px;
+  background-color: rgba(59, 191, 61, 0.76);
+}
+
+.caption small {
+  font-size: 12px;
+  color: #949494;
+}

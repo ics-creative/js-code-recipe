@@ -1,0 +1,40 @@
+body {
+  display: block;
+  overflow: scroll;
+}
+
+.file-zone {
+  background-color: rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100% - 200px);
+  transition: 100ms all ease-out;
+}
+
+.file-zone.on {
+  background-color: rgba(97, 131, 209, 0.9);
+}
+
+.file-preview-area {
+  width: 100%;
+  min-height: 200px;
+  background-color: rgba(0, 0, 0, 0.58);
+}
+
+.file-preview-area .image-list {
+  display: grid;
+  overflow: scroll;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+}
+
+.file-preview-area .image-list > img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}

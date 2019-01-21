@@ -1,0 +1,13 @@
+.rectangle {
+  background-image: linear-gradient(-135deg, #00aaff, #5500ff);
+}
+
+.rectangle.big-size {
+  background-image: linear-gradient(-135deg, red, #ff00a2);
+}
+
+.rectangle {
+  width: 100%;
+  height: calc(100% - 50px);
+  transition: 300ms ease-in-out all;
+}

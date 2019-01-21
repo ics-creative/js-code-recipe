@@ -1,0 +1,15 @@
+p.log {
+  word-wrap: normal;
+  width: 100%;
+  height: 300px;
+  overflow: scroll;
+  border: 1px solid white;
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+  box-sizing: border-box;
+  word-break: break-all;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 0.75rem;
+  margin-top: 10px;
+}
