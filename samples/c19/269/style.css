@@ -7,32 +7,6 @@
   tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-ul {
-  list-style: none;
-}
-
-table {
-  text-align: left;
-  border-collapse: collapse;
-}
-
-table th {
-  font-weight: normal;
-}
-
-h1,
-h2 {
-  font-weight: normal;
-}
-
-button {
-  display: block;
-}
-
-label {
-  display: block;
-}
-
 html,
 body {
   width: 100%;
@@ -48,82 +22,15 @@ body {
   padding: 10px;
   box-sizing: border-box;
 }
-
-h1 {
-  text-align: center;
-  font-size: 26px;
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 24px;
-}
-
-h1,
-p,
-label,
-button,
-textarea,
-ul,
-li,
-hr {
-  margin-bottom: 20px;
-}
-
-a {
-  color: #fff;
-}
-
 p {
+  margin-bottom: 20px;
   line-height: 36px;
 }
 
-table {
-  margin-left: auto;
-  margin-right: auto;
-  height: 40px;
-}
-
-input,
-textarea,
-button,
-label,
-select {
-  font-size: 18px;
-  line-height: 18px;
-}
-
-select {
-  background-color: #fff;
-}
-
-button {
-  width: 300px;
-}
-
-label input {
-  margin-left: 20px;
-}
-
-textarea {
-  box-sizing: border-box;
-  padding: 20px;
-}
-
-code {
-  font-size: 18px;
-  font-family: monospace;
-}
-
-code.block {
-  padding: 10px;
-  display: block;
-  background-color: rgba(0, 0, 0, 0.3);
-}
 
 body {
   background-size: cover;
-  background: url("../common/bg_nature.jpg") center;
+  background: url("./bg_nature.jpg") center;
   color: #333333;
 }
 
