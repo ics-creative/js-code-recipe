@@ -1,5 +1,3 @@
-**現在準備中です。以下の説明は変わる可能性があります。**
-
 # 「JavaScript コードレシピ集（技術評論社）」のサンプルファイル
 こちらは「[JavaScript コードレシピ集：｜技術評論社](https://gihyo.jp/book/2019/978-4-297-10368-2/support)」サポートページの一部です。以下のことをご確認・ご了承の上、ファイルをご利用願います。
 
@@ -41,7 +39,7 @@ https://github.com/ics-creative/js-code-recipe/archive/master.zip
 ## Internet Explorer 11の対応方法について
 本書のサンプルコードをInternet Explorer 11（以下、IE11）で動作させるための手順については、次のURLを参照してください。
 
-https://github.com/ics-creative/js-code-recipe-ie11/blob/master/ReadMe.md
+https://github.com/ics-creative/js-code-recipe-ie11/
 
 ※ IE11向けに動作するためのビルド設定が入っています。通常のサンプルより複雑な構成なので、学習目的としては通常のサンプルをご使用ください。
 
