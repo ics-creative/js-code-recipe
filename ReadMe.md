@@ -14,7 +14,7 @@ https://github.com/ics-creative/js-code-recipe/archive/master.zip
 ## フォルダー構成
 サンプルファイルは各章のフォルダーにわけて収録しています。
 
-例：2章「020」のサンプル → 「samples/c02/020」
+例：2章031「文字列を取り出したい」のサンプル → 「samples/c02/031」
 
 ## ローカルで動作しないサンプル用のURL
 
