@@ -2,8 +2,7 @@
 
 ![](images/jscoderecipe-supoort.jpg)
 
-この度は[JavaScript コードレシピ集：｜技術評論社](https://gihyo.jp/book/2019/978-4-297-10368-2/support)」をご購入いただき、ありがとうございます。こちらはサポートページの一部として、サンプルコードを公開しています。以下のことをご確認・ご了承の上、ファイルをご利用願います。
-
+この度は「[JavaScript コードレシピ集](https://gihyo.jp/book/2019/978-4-297-10368-2/support)」をご購入いただき、ありがとうございます。こちらではサポートページの一部としてサンプルコードを公開しています。以下のことをご確認・ご了承の上、ファイルをご利用願います。
 
 **⭐サンプルコードや説明は定期的に更新されています。学習の際は常に最新のものをご利用ください。⭐**
 
@@ -51,7 +50,7 @@ https://github.com/ics-creative/js-code-recipe-ie11/
 
 ## 本書に対する思い・こだわり
 
-「[「JavaScriptコードレシピ集」を執筆しました！ - ICS MEDIA](https://ics.media/entry/19765)」にて公開中ですのでぜひご覧ください。
+「[『JavaScriptコードレシピ集』を執筆しました！ - ICS MEDIA](https://ics.media/entry/19765)」にて公開中ですのでぜひご覧ください。
 
 [![](images/ics-media-book.png)](https://ics.media/entry/19765)
 
@@ -62,7 +61,7 @@ https://github.com/ics-creative/js-code-recipe-ie11/
 - [池田 泰延](https://twitter.com/clockmaker)
 - [鹿野壮](https://twitter.com/tonkotsuboy_com)
 
-オウンドメデイア「[ICS MEDIA](https://ics.media/)」で毎週ウェブ制作の記事を公開しています。こちらもあわせてチェックすると、よりウェブ制作の知識が高まるでしょう。
+また、オウンドメデイア「[ICS MEDIA](https://ics.media/)」で毎週ウェブ制作の記事を公開しています。こちらもあわせてチェックすると、よりウェブ制作の知識が高まるでしょう。
 
 [![](images/ics-media.png)](https://ics.media/)
 
