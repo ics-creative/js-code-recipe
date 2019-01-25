@@ -20,12 +20,12 @@ https://github.com/ics-creative/js-code-recipe/archive/master.zip
 
 次のサンプルはローカルで実行すると動作しません。確認可能なURLがありますのであわせて参照ください。
 
-| フォルダー | 項目 |  確認可能なURL  |
-|:---|:----|:---|
-|  c11 | 200  |  [サーバー上で確認する](https://ics-creative.github.io/js-code-recipe/samples/c11/200/index.html)  |
-|  c12 | 214  |  [サーバー上で確認する](https://ics-creative.github.io/js-code-recipe/samples/c12/214/index.html)  |
-|  c12 | 215  |  [サーバー上で確認する](https://ics-creative.github.io/js-code-recipe/samples/c12/215/index.html)  |
-|  c12 | 218  |  [サーバー上で確認する](https://ics-creative.github.io/js-code-recipe/samples/c12/218/index.html)  |
+| 章フォルダー | 項目番号 | 項目名                                      | 確認可能なURL                                                                                   |
+|:-----------|:--------|:-------------------------------------------|:----------------------------------------------------------------------------------------------|
+| c11        | 200     | 音声を読み込みたい                            | [サーバー上で確認する](https://ics-creative.github.io/js-code-recipe/samples/c11/200/index.html) |
+| c12        | 214     | 画像のRGBA値を調べたい                        | [サーバー上で確認する](https://ics-creative.github.io/js-code-recipe/samples/c12/214/index.html) |
+| c12        | 215     | キャンバスの画像を加工したい                    | [サーバー上で確認する](https://ics-creative.github.io/js-code-recipe/samples/c12/215/index.html) |
+| c12        | 218     | キャンバスで描いたグラフィックをダウンロードしたい | [サーバー上で確認する](https://ics-creative.github.io/js-code-recipe/samples/c12/218/index.html) |
 
 自身で変更したサンプルを確認するにはサーバーが必要です。Google Chromeの拡張機能「[Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb)」を使うと、手軽に構築できます。
 
@@ -35,10 +35,10 @@ https://github.com/ics-creative/js-code-recipe/archive/master.zip
 
 次のサンプルはスマートフォン用のものです。スマートフォンで確認しやすいよう、URLを準備しましたのであわせて参照ください。
 
-| フォルダー | 項目 |  確認可能なURL  |
-|:---|:----|:---|
-|  c07 | 125  |  [サーバー上で確認する](https://ics-creative.github.io/js-code-recipe/samples/c07/125/index.html)  |
-|  c07 | 126  |  [サーバー上で確認する](https://ics-creative.github.io/js-code-recipe/samples/c07/126/index.html)  |
+| 章フォルダー | 項目番号 | 項目名                                   | 確認可能なURL                                                                                   |
+|:-----------|:--------|:--------------------------------------|:----------------------------------------------------------------------------------------------|
+| c07        | 125     | タッチ操作時に処理をしたい                | [サーバー上で確認する](https://ics-creative.github.io/js-code-recipe/samples/c07/125/index.html) |
+| c07        | 126     | タッチ操作時のイベントの発生情報を取得したい | [サーバー上で確認する](https://ics-creative.github.io/js-code-recipe/samples/c07/126/index.html) |
 
 
 ## Internet Explorer 11の対応方法
