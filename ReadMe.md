@@ -4,7 +4,7 @@
 
 この度は「[JavaScript コードレシピ集](https://gihyo.jp/book/2019/978-4-297-10368-2/support)」をご購入いただき、ありがとうございます。こちらではサポートページの一部としてサンプルコードを公開しています。以下のことをご確認・ご了承の上、ファイルをご利用願います。
 
-**⭐サンプルコードや説明は定期的に更新されています。学習の際は常に最新のものをご利用ください。⭐**
+**⭐ サンプルコードや説明は定期的に更新されています。学習の際は常に最新のものをご利用ください ⭐**
 
 ## ダウンロード
 サンプルファイルを一括でダウンロードする場合は次のURLを参照してください。
@@ -29,7 +29,7 @@ https://github.com/ics-creative/js-code-recipe/archive/master.zip
 
 自身で変更したサンプルを確認するにはサーバーが必要です。Google Chromeの拡張機能「[Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb)」を使うと、手軽に構築できます。
 
-- 参考：[web server for chromeの設定](https://twitter.com/tonkotsuboy_com/status/868397954532495360)
+- 参考：[Web Server for Chromeの設定方法](https://twitter.com/tonkotsuboy_com/status/868397954532495360)
 
 ## スマートフォン用サンプルの確認方法
 
