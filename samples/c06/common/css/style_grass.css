@@ -42,6 +42,7 @@ h2 {
 }
 
 main {
+  display: block;
   box-sizing: border-box;
   padding: 50px;
   background: hsla(0, 0%, 100%, 0.8);
