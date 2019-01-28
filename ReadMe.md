@@ -1,4 +1,6 @@
 [![Release Version](https://img.shields.io/github/release/ics-creative/js-code-recipe.svg)](https://github.com/ics-creative/js-code-recipe/releases)
+[![](https://img.shields.io/github/last-commit/ics-creative/js-code-recipe.svg)](https://github.com/ics-creative/js-code-recipe/commits/develop)
+[![](https://img.shields.io/github/release-date/ics-creative/js-code-recipe.svg)](https://github.com/ics-creative/js-code-recipe/releases)
 
 # 「JavaScriptコードレシピ集（技術評論社）」のサンプルファイルと補足
 
