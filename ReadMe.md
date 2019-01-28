@@ -1,3 +1,5 @@
+[![Release Version](https://img.shields.io/github/release/ics-creative/js-code-recipe.svg)](https://github.com/ics-creative/js-code-recipe/releases)
+
 # 「JavaScriptコードレシピ集（技術評論社）」のサンプルファイルと補足
 
 ![](images/jscoderecipe-supoort.jpg)
