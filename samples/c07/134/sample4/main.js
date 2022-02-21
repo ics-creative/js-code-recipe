@@ -12,7 +12,7 @@ fileZone.addEventListener('dragover', (event) => {
 });
 
 // ドラッグした要素が離れたときの処理
-fileZone.addEventListener('dragleave', () => {
+fileZone.addEventListener('dragleave', (event) => {
   // デフォルトの挙動を停止
   event.preventDefault();
   fileZone.classList.remove(className);
@@ -25,26 +25,26 @@ fileZone.addEventListener('drop', (event) => {
   fileZone.classList.remove(className);
 
   // Fileオブジェクトを参照
-  const transferdFiles = event.dataTransfer.files;
+  const transferredFiles = event.dataTransfer.files;
 
   // 画像を表示する
-  displayImages(transferdFiles);
+  displayImages(transferredFiles);
 });
 
 /** 画像の表示処理 */
-function displayImages(transferdFiles) {
+function displayImages(transferredFiles) {
   // 画像ファイルの格納配列
   const imageFileList = [];
 
   // ファイル数
-  const fileNum = transferdFiles.length;
+  const fileNum = transferredFiles.length;
 
   // ファイルが画像のもののみを配列に格納する
   for (let i = 0; i < fileNum; i++) {
-    if (transferdFiles[i].type.match('image.*') === false) {
+    if (transferredFiles[i].type.match('image.*') === false) {
       return;
     }
-    imageFileList.push(transferdFiles[i]);
+    imageFileList.push(transferredFiles[i]);
   }
 
   // 画像表示エリアの参照
